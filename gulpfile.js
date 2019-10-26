@@ -56,7 +56,6 @@ gulp.task('styles', () => {
 gulp.task('scripts', () => {
     // шаблон для поиска js
     return gulp.src([
-            './src/js/sum.js',
             './src/js/main.js'
         ])
         .pipe(sourcemaps.init())
